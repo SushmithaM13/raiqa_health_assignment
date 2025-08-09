@@ -1,0 +1,83 @@
+.list-container{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 12px;
+    padding: 20px;
+    background: #fff;
+    width: 300px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.insideList-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 12px;
+}
+.insideList-container h2{
+    font-size: 20px;
+    margin: 0;
+}
+.list-btns{
+    display: flex;
+    gap: 8px;
+}
+.list-btns button{
+    padding: 4px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s ease;
+}
+.list-btns button:first-child{
+    border: 1px solid #ff4b4b;
+    background: white;
+    color: #ff4b4b;
+}
+.list-btns button:first-child:hover{
+    background: #ff4b4b;
+    color: white;
+}
+.list-btns button:last-child{
+    background: #2b82f6;
+    color: white;
+}
+.list-btns button:last-child:hover {
+  background: #1d6ed8;
+}
+.view-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.view-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: #f8f9fb;
+  color: black;
+  font-size: 15px;
+  border: 1px solid #e5e7eb;
+}
+.view-card:hover {
+  background: #eef3fa;
+}
+.list-container p {
+  color: #666;
+  font-size: 15px;
+  text-align: center;
+  margin: 15px 0;
+} 
+.total-numbers{
+    background-color: #f4f8ff;
+    color: #2b82f6;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
